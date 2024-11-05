@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> pertemuan web 2</title>
+   
+    </head>
+
+    
+----
+    <body>
+
+        <ul>
+            <li>cindy</li>
+            <li>ariel</li>
+            <li>angel</li>
+        </ul>
+
+        <ol>
+            <li>rey</li>
+            <li>ariel</li>
+            <li>ipal</li>
+        </ol>
+
+        <table border="1">
+
+        <tr>
+            <th>No</th>
+            <th>Nim</th>
+            <th>Nama</th>
+            <th>Prodi</th>
+
+        </tr>
+        
+        <tr>
+            <td>1</td>
+            <td>F55123071</td>
+            <td>Ariel Adriazul Ahwan</td>
+            <td>S1-Teknik Informatika</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>F55123079</td>
+            <td>Rey Rizky</td>
+            <td>S1-Teknik Informatika</td>
+        </tr>
+
+        <tr>
+            <th>No</th>
+            <th>Nim</th>
+            <th>Nama</th>
+            <th>Prodi</th>
+            <th>Asdos</th>
+            <th colspan="5">absen</th>
+        </tr>
+        
+        <tr>
+            <td>1</td>
+            <td>F55123071</td>
+            <td>Ariel Adriazul Ahwan</td>
+            <td>S1-Teknik Informatika</td>
+            <td rowspan="2">Pemrograman Web-1 Kelas B</td>
+            <td>Hadir</td>
+            <td>Alpa</td>
+            <td>Hadir</td>
+            <td>Hadir</td>
+            <td>Hadir</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>F55123072</td>
+            <td>Asfita</td>
+            <td>S1-Teknik Informatika</td>
+            <td>Hadir</td>
+            <td>Hadir</td>
+            <td>Hadir</td>
+            <td>Hadir</td>
+            <td>Hadir</td>
+        </tr>
+
+        </table>
+
+        <table border="1" width="100%">
+            <tr>
+                <th height="40px">No</th>
+                <th>Nim</th>
+                <th width="40%">Nama</th>
+                <th>Prodi</th>
+                <th>Asdos</th>
+                <th colspan="5">Absen</th>
+            </tr>
+        </table>
+
+        <form action="">
+            <!-- Input -->
+<label>Nama</label><br>
+<input type="text" name="nama" id="nama"><br>
+
+<label>Email</label><br>
+<input type="email" name="mail" id="mail"><br>
+
+<label>Password</label><br>
+<input type="password" name="pass" id="pass"><br>
+
+<label>Jenis Kelamin</label><br>
+<input type="radio" name="jk" id="jk" value="Laki Laki"> Laki Laki<br>
+<input type="radio" name="jk" id="jk" value="Perempuan"> Perempuan<br>
+
+<label>Mata Kuliah</label><br>
+<input type="checkbox" name="mk" id="mk" value="Pemrograman Web 1"> Pemrograman Web 1<br>
+<input type="checkbox" name="mk" id="mk" value="RPL"> RPL<br>
+<input type="checkbox" name="mk" id="mk" value="Pemrograman Mobile"> Pemrograman Mobile<br>
+<input type="checkbox" name="mk" id="mk" value="Pemrograman Dasar"> Pemrograman Dasar<br>
+
+<label>Tanggal Lahir</label><br>
+<input type="date" name="tglLahir" id="tglLahir"><br>
+
+<label>Pilih Warna</label><br>
+<input type="color" name="warna" id="warna"><br>
+
+<label>Upload File</label><br>
+<input type="file" name="file" id="file"><br>
+
+<label>Qty</label><br>
+<input type="number" name="qty" id="qty"><br>
+
+<label>Tersembunyi tapi ada</label><br>
+<input type="hidden" name="hilang" id="hilang" value="Secret"><br>
+
+<label>Range</label><br>
+<input type="range" name="range" id="range" value="50"><br>
+
+<label>Tombol Submit</label><br>
+<input type="submit" name="submit" id="submit"><br>
+
+<label>Tombol Reset</label><br>
+<input type="reset" name="reset" id="reset"><br>
+
+<!-- input lain-->
+
+<label> Teks Area:</label><br>
+<textarea name="alamat" cols="30" rows="5"></textarea><br>
+
+<label>Pilih Agama:</label><br>
+<select name="agama" id="agama">
+  <option value="islam">Islam</option>
+  <option value="kristen">Kristen</option>
+  <option value="hindu">Hindu</option>
+  <option value="budha">Budha</option>
+  <option value="katolik">Katolik</option>
+</select>
+
+<label>Pilih Siswa:</label><br>
+<input list="datasiswa" name="siswa" id="siswa">
+<datalist id="datasiswa">
+  <option value="angel">angel</option>
+  <option value="rey">rey</option>
+  <option value="cindy">cindy</option>
+  <option value="ariel">ariel</option>
+  <option value="irul">irul</option>
+</datalist><br>
+
+<button>Ini Tombol</button><br><br>
+
+<fieldset>
+  <legend>Form Pendaftaran</legend>
+  <label>Nama Lengkap:</label><br>
+  <input type="text" name="nama" id="nama"><br>
+  <label>Umur:</label><br>
+  <input type="number" name="umur" id="umur"><br>
+  <button type="submit">Button</button>
+</fieldset>
+
+        </form>
+        
+    </body>
+</html>
